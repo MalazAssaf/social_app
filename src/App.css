@@ -16,6 +16,10 @@ body{
   color: #61dafb;
 }
 
+p{
+  margin: 5px 0;
+}
+
 @font-face {
   font-family: "MyFont";
   src: url("../public/Fonts/IBM_Plex_Sans_Arabic,Roboto_Mono/Roboto_Mono/static/RobotoMono-Light.ttf");
