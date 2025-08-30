@@ -1,8 +1,8 @@
+// MATERIAL UI
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
-import { useSelector } from "react-redux";
-export function Loader() {
-  const isLoading = useSelector((state) => state.posts.isLoading);
+
+export function Loader({ isLoading }) {
   return (
     <Backdrop
       sx={(theme) => ({

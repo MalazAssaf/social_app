@@ -20,6 +20,19 @@ p{
   margin: 5px 0;
 }
 
+.MuiCardHeader-avatar{  
+  margin-right: 8px !important;
+}
+
+@media (max-width:900px) {
+  .center-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
 @font-face {
   font-family: "MyFont";
   src: url("../public/Fonts/IBM_Plex_Sans_Arabic,Roboto_Mono/Roboto_Mono/static/RobotoMono-Light.ttf");
