@@ -4,11 +4,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
 // OTHERS
-import { fetchPostOfUser } from "../posts/PostSlice";
-import { Post } from "../../components/Post";
-import { ProfileBox } from "../../components/ProfileBox";
-import { fetchUserInfo } from "../users/UserSlice";
-import { Loader } from "../../components/Loader";
+import { fetchPostOfUser } from "../features/posts/PostSlice";
+import { Post } from "../components/Post";
+import { ProfileBox } from "../components/ProfileBox";
+import { fetchUserInfo } from "../features/users/UserSlice";
+import { Loader } from "../components/Loader";
 
 export function OthersProfile() {
   const { id } = useParams(); // Extracts the Author ID from URL

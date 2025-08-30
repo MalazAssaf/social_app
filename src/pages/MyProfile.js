@@ -3,11 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 
 // OTHERS
 import { useEffect } from "react";
-import { fetchPostOfUser } from "../posts/PostSlice";
-import { Post } from "../../components/Post";
-import { Loader } from "../../components/Loader";
+import { fetchPostOfUser } from "../features/posts/PostSlice";
+import { Post } from "../components/Post";
+import { Loader } from "../components/Loader";
 import { ErrorPage } from "../../components/ErrorPage";
-import { ProfileBox } from "../../components/ProfileBox";
+import { ProfileBox } from "../components/ProfileBox";
 
 export function MyProfile() {
   const { userData } = useSelector((state) => state.auth);

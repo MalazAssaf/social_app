@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Container } from "@mui/material";
 
-import { Loader } from "./Loader";
+import { Loader } from "../components/Loader";
 import { Posts } from "../features/posts/Posts";
 import { AddPost } from "../features/posts/AddPost";
 import { fetchPosts, fetchPostOfUser } from "../features/posts/PostSlice";
